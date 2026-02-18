@@ -22,10 +22,16 @@ function ensureHunting(save){
 }
 
 const TARGETS = [
-  { id:"deer", name:"Deer", req:1,  img:"images/hunting/deer.png", rawName:"Raw Deer Meat", cookedName:"Cooked Deer Meat", stamina:2 },
-  { id:"boar", name:"Boar", req:5,  img:"images/hunting/boar.png", rawName:"Raw Boar Meat", cookedName:"Cooked Boar Meat", stamina:3 },
-  { id:"wolf", name:"Wolf", req:10, img:"images/hunting/wolf.png", rawName:"Raw Wolf Meat", cookedName:"Cooked Wolf Meat", stamina:4 },
-  { id:"bear", name:"Bear", req:15, img:"images/hunting/bear.png", rawName:"Raw Bear Meat", cookedName:"Cooked Bear Meat", stamina:5 },
+  { id:"shadow_hare",       name:"Shadow Hare",       req:1,  img:"images/hunting/shadow_hare.png",       rawName:"Raw Shadow Hare Meat",       cookedName:"Cooked Shadow Hare Meat",       stamina:2 },
+  { id:"rotfeather_turkey", name:"Rotfeather Turkey", req:10, img:"images/hunting/rotfeather_turkey.png", rawName:"Raw Rotfeather Turkey Meat", cookedName:"Cooked Rotfeather Turkey Meat", stamina:3 },
+  { id:"gloom_fox",         name:"Gloom Fox",         req:20, img:"images/hunting/gloom_fox.png",         rawName:"Raw Gloom Fox Meat",         cookedName:"Cooked Gloom Fox Meat",         stamina:4 },
+  { id:"bloodtusk_boar",    name:"Bloodtusk Boar",    req:30, img:"images/hunting/bloodtusk_boar.png",    rawName:"Raw Bloodtusk Boar Meat",    cookedName:"Cooked Bloodtusk Boar Meat",    stamina:5 },
+  { id:"night_wolf",        name:"Night Wolf",        req:40, img:"images/hunting/night_wolf.png",        rawName:"Raw Night Wolf Meat",        cookedName:"Cooked Night Wolf Meat",        stamina:6 },
+  { id:"stonehorn_ram",     name:"Stonehorn Ram",     req:50, img:"images/hunting/stonehorn_ram.png",     rawName:"Raw Stonehorn Ram Meat",     cookedName:"Cooked Stonehorn Ram Meat",     stamina:7 },
+  { id:"thorn_stag",        name:"Thorn Stag",        req:60, img:"images/hunting/thorn_stag.png",        rawName:"Raw Thorn Stag Meat",        cookedName:"Cooked Thorn Stag Meat",        stamina:8 },
+  { id:"grave_bear",        name:"Grave Bear",        req:70, img:"images/hunting/grave_bear.png",        rawName:"Raw Grave Bear Meat",        cookedName:"Cooked Grave Bear Meat",        stamina:9 },
+  { id:"dire_warg",         name:"Dire Warg",         req:80, img:"images/hunting/dire_warg.png",         rawName:"Raw Dire Warg Meat",         cookedName:"Cooked Dire Warg Meat",         stamina:10 },
+  { id:"forest_troll",      name:"Forest Troll",      req:90, img:"images/hunting/forest_troll.png",      rawName:"Raw Forest Troll Meat",      cookedName:"Cooked Forest Troll Meat",      stamina:11 },
 ];
 
 function countByName(inv, name){
